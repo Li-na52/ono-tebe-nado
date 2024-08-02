@@ -1,9 +1,13 @@
 header{
+    width: 100%;
+    max-width: 1052px;
     box-sizing: border-box;
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 1.6fr 1fr 1.6fr;
-    padding: 92px 25.48px 96px 50.52px;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    justify-content: center;
+    padding: 94px 0px 90px 50.5px;
+    
     align-items: center;
     font-size: 18px;
 }
@@ -11,22 +15,29 @@ header{
 .header__logo img{
     width: 100%;
     max-width: 148px;
+    height: 105px;
 }
 
 .header__logo{
    display: grid;
-   justify-items: center;
+   margin: -2px 4px 0px 0px;
 }
 
 .header__menu{
     display: grid;
-    justify-items: start;
  }
 
 .header__links-list{
     list-style: circle;
     display: flex;
-    gap: 31.48px;
+}
+
+.header__links-list a {
+    width: 100%;
+}
+
+.header__links-center {
+    margin: 0px 36px 0px 31.48px;
 }
 
 .header__links-list a {
@@ -36,10 +47,7 @@ header{
 }
 
 .address {
-    padding-right: 50px;
-    display: flex;
-    justify-content: end;
-    line-height: 24.3px;
+    line-height: 24px;
 }
 
 .address address {
@@ -58,11 +66,7 @@ header{
 main {
     width: 1100px;
     height: 757px;
-    /*background-image: ;*/
-
-    /*background-color: forestgreen;*/
-    /*src=(./images/cover.jpg);
-    /*url("oil-painting-beautiful-lotus-flower_1232-1978.png");*/
+    background-image: url("/images/cover.jpg");
 
 }
 
