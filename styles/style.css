@@ -51,6 +51,8 @@ header {
   border-bottom: 1px solid #000;
 }
 
+/*===== MAIN =====*/
+
 h1 {
   font-size: 100px;
   text-transform: uppercase;
@@ -65,7 +67,6 @@ h1 {
   background-image: url("/images/cover.jpg");
   background-size: cover;
   background-position: center;
-
   font-size: 100px;
   font-weight: 700;
   color: #fff;
@@ -156,6 +157,7 @@ h1 {
   font-weight: 500;
 }
 
+/* === LOTS === */
 
 .lots {
   color: #fff;
@@ -229,6 +231,12 @@ h1 {
   font-weight: 700;
   line-height: 26.4px;
   text-transform: uppercase;
+}
+
+.card__title {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .card__text {
